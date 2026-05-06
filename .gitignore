@@ -1,0 +1,47 @@
+# .gitignore for private-report-project
+# --------------------------------------------------
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / VitePress build & cache
+.vite/
+dist/
+.vitepress/dist/
+.vitepress/.temp/
+.vitepress/cache/
+
+# Environment
+.env
+.env.*.local
+.env.local
+
+# IDE / Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / coverage
+logs/
+*.log
+coverage/
+.nyc_output/
+.cache/
+
+# Misc
+*.local
+*.pem
+
+# End of file
+
