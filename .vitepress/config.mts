@@ -16,7 +16,24 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+        ]
+      },
+      {
+        text: '[Update] Part2.AWS 아키텍처 설계 기본',
+        // allow this group to be collapsed/expanded in the sidebar and make it expanded by default
+        collapsible: true,
+        collapsed: false,
+        items: [
+          {
+            text: 'ch04_소규모서비스구축해보기',
+            collapsible: true,
+            collapsed: false,
+            items: [
+                { text: '목표 아키텍처 및 개발환경 설명', link: '/[Update] Part2_AWS아키텍처 설계 기본/ch04_소규모서비스구축해보기/01' },
+                { text: 'Route53및ACM생성하기', link: '/[Update] Part2_AWS아키텍처 설계 기본/ch04_소규모서비스구축해보기/02' }
+            ]
+          }
         ]
       }
     ],
