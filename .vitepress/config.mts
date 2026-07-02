@@ -8,7 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'MenuTestTool', link: '/menu-test-tool' },
     ],
 
     sidebar: [
@@ -35,7 +36,15 @@ export default defineConfig({
             ]
           }
         ]
-      }
+      },
+      {
+        text: '메뉴테스트도구',
+        collapsible: true,
+        collapsed: false,
+        items: [
+            { text: 'MenuTestTool', link: '/메뉴테스트도구/menu-test-tool' }
+        ]
+      },
     ],
 
     socialLinks: [
